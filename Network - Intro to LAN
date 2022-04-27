@@ -1,0 +1,191 @@
+ - Identifying Devices on a Network -
+
+
+# What is the key term for devices that are connected together?
+
+A: Networking.
+
+
+
+# Who invented the World Wide Web?
+
+A: Tim Berners-Lee.
+
+
+
+# What does the term "IP" stand for?
+
+A: Internet Protocol.
+
+
+
+# What is each section of an IP address called?
+
+A: Octet.
+
+
+
+# How many sections (in digits) does an IP address have? 
+
+A: 4.
+
+
+
+# What does the term "MAC" stand for?
+
+A: Media Access Control.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- PING -
+
+
+# What protocol does ping use?
+
+A: ICMP(Internet Control Message Protocol).
+
+
+
+# What is the syntax to ping 10.10.10.10?
+
+A: ping 10.10.10.10
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Topologies -
+
+
+# What does LAN stand for?
+
+A: Local Area Network.
+
+
+
+# What is the verb given to the job that Routers perform?
+
+A: Routing.
+
+
+
+
+# What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?
+
+A: Switch.
+
+
+
+
+# What topology is cost-efficient to set up?
+
+A: Bus Topology.
+
+
+
+
+# What topology is expensive to set up and maintain?
+
+A: Star Topology.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- A primer on Subnetting -
+
+
+# What is the technical term for dividing a network up into smaller pieces?
+
+A: Subnetting.
+
+
+
+# How many bits are in a subnet mask?
+
+A: 32.
+
+
+
+# What is the range of a section (octet) of a subnet mask?
+
+A: 0-255.
+
+
+
+# What address is used to identify the start of a network?
+
+A: Network Address.
+
+
+
+# What address is used to identify devices within a network?
+
+A: Host Address.
+
+
+
+# What is the name used to identify the device responsible for sending data to another network?
+
+A: Default Gateway.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- The ARP Protocol -
+
+
+# Each device within a network has a ledger to store information on, which is called a cache.
+In the context of the ARP protocol, this cache stores the identifiers of other devices on the network.
+
+
+# In order to map these two identifiers together (IP address and MAC address), the ARP protocol sends two types of messages:
+
+1 - ARP Request
+2 - ARP Reply
+
+
+# What does ARP stand for?
+
+A: Address Resolution Protocol.
+
+
+
+# What category of ARP Packet asks a device whether or not it has a specific IP address?
+
+A: Request.
+
+
+
+# What address is used as a physical identifier for a device on a network?
+
+A: MAC Address.
+
+
+
+# What address is used as a logical identifier for a device on a network?
+
+A: IP Address.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- The DHCP Protocol -
+
+
+# IP addresses can be assigned either manually, by entering them physically into a device, 
+or automatically and most commonly by using a DHCP (Dynamic Host Configuration Protocol) server.
+
+
+# What type of DHCP packet is used by a device to retrieve an IP address?
+
+A: DHCP Discover.
+
+
+
+# What type of DHCP packet does a device send once it has been offered an IP address by the DHCP server?
+
+A: DHCP Request.
+
+
+
+# Finally, what is the last DHCP packet that is sent to a device from a DHCP server?
+
+A: DHCP ACK.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
